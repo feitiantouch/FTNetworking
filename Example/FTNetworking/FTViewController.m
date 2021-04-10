@@ -7,6 +7,8 @@
 //
 
 #import "FTViewController.h"
+#import <FTNetworking/FTNetworkManager.h>
+#import <AFNetworking/AFNetworking.h>
 
 @interface FTViewController ()
 
@@ -18,6 +20,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [AFHTTPSessionManager manager];
+    [[[FTNetworkManager alloc] init] testPrint:@"fffff"];
+    NSString *fwPath = [[NSBundle mainBundle] pathForResource:@"FTNetworking" ofType:nil];
+    NSBundle *fwbd = [NSBundle bundleWithPath:fwPath];
+    NSString *bdPath = [fwbd pathForResource:@"FTNetworking" ofType:@"bundle"];
+    NSBundle *bd = [NSBundle bundleWithPath:bdPath];
+    UIImage *bgImage = [UIImage imageNamed:@"icon_accessory_selected@" inBundle:bd withConfiguration:nil];
+    NSLog(@"%@",bgImage);
 }
 
 - (void)didReceiveMemoryWarning
