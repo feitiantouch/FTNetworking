@@ -208,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				327BD2D77BEC46A01EBB67CA /* [CP] Embed Pods Frameworks */,
+				58667C41A701477319B7CE9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -325,16 +326,32 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FTNetworking_Example/Pods-FTNetworking_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/FTNetworking/FTNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FTNetworking_Example/Pods-FTNetworking_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58667C41A701477319B7CE9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FTNetworking_Example/Pods-FTNetworking_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FTNetworking/FTNetworking.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FTNetworking.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FTNetworking_Example/Pods-FTNetworking_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		943AB18622102EB7470C671B /* [CP] Check Pods Manifest.lock */ = {

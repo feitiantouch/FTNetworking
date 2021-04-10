@@ -1,6 +1,6 @@
 {
   "name": "FTNetworking",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A short description of FTNetworking.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/feitiantouch/FTNetworking",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/feitiantouch/FTNetworking.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,9 +21,10 @@
   "source_files": "FTNetworking/Classes/**/*",
   "resource_bundles": {
     "FTNetworking": [
-      "FTNetworking/Assets/*.png"
+      "FTNetworking/Assets/*"
     ]
   },
+  "static_framework": true,
   "dependencies": {
     "AFNetworking": [
 
