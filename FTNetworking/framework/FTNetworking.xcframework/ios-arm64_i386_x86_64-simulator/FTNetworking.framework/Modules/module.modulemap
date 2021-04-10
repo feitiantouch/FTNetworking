@@ -1,0 +1,6 @@
+framework module FTNetworking {
+  umbrella header "FTNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

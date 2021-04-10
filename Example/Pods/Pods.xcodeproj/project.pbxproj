@@ -6,6 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		332DC6D1FF53228A8B5698314EE5A082 /* FTNetworking */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F6AFE8D051B9319CA6006C0063225D1A /* Build configuration list for PBXAggregateTarget "FTNetworking" */;
+			buildPhases = (
+				60A639F6060C0F18A0D116C42D24A394 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				BB4819FA7BFCBCA8E8338373F0232BFB /* PBXTargetDependency */,
+				D9E00BE8C544CDA97C62D90D5D8BCD19 /* PBXTargetDependency */,
+			);
+			name = FTNetworking;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		01BEB06B4E262DCEA7A94F4206311BF9 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2D8C6F89E11A531AD7544C065F4DDC /* UIRefreshControl+AFNetworking.m */; };
 		02937E01710489D6668D0C3700E8EADA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB51F7DEB07C68843C396B8C44B0FA /* UIProgressView+AFNetworking.m */; };
@@ -21,7 +36,6 @@
 		3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 75ACF33252734108CC44AF5E36AAD396 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EB561D79F76C06AA538872D6302D35D /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3600A67B33B1FED00AE88B43D1244F6 /* AFNetworking-dummy.m */; };
 		40426F061CD9B0B435C690CAFEA2BD00 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0587DEB0F48B0C1A8B2789B2897009D7 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		465D8DB4638AD824198E166B2F0B2E25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4992259A954F174FA8BDB394DB1C8F93 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5D67C4903542379A45E2A9E3AD512A /* AFAutoPurgingImageCache.m */; };
 		4FCA4E8703DBF3D3FB7D5BA06229159D /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D0730868BFD57958E896FE402D758ACB /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5198CC1AC75E61D2AC17F223C591981F /* Pods-FTNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E4B36F45EFDBAFEA50B765860A1987 /* Pods-FTNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,10 +45,8 @@
 		722EC0191A173ECB2121618467D32DF4 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4036CC2F41439B5F3AA9EDFBA7AF998 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76536A816A576F08FADD3366A2E40094 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 087E14CFD01C52C8F320802FBE1C96AD /* AFURLSessionManager.m */; };
 		828919193B61FC103B8846F54EF3131C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3E2CD3A24ADC744F7D0585EBA2B334 /* AFURLResponseSerialization.m */; };
-		8C667856194817B674319D83EF79289D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3018CF1D30827BAEAF9B68A84EB1F6B7 /* ReplaceMe.m */; };
 		8CE480485EFF2F15B7A394C90CFF274A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C617FE811A91EA69182671BD494E324 /* AFHTTPSessionManager.m */; };
 		8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BEF3ED4DA9B8AAE20161D6B17D9800 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9229F1F8FD2E8DF6E9728135A0089F9E /* FTNetworkingResource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280140A54FE6C45B1C8B8A803BD0F110 /* FTNetworkingResource.xcassets */; };
 		951B6669114E3C8D2E4961AFE2BB6647 /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 38082307C0751FB7512FD7B4DCE0F0DF /* WKWebView+AFNetworking.m */; };
 		9D3A67B86C6A3A1339783953B3E833B9 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 929EE54BD0D1854BBCCA902B94780F8F /* AFNetworkActivityIndicatorManager.m */; };
 		A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */; };
@@ -47,52 +59,49 @@
 		C7500BA54579034C08C27889C6124AA0 /* Pods-FTNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC804C1401E37B409B8537BAA2942A1A /* Pods-FTNetworking_Example-dummy.m */; };
 		C9F701A2E6208D9E840E7A91287F21B9 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 648A80C6763B46492C7A3ACEB109BCE4 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CABFE6D4ED1D1BC61D0DA0D618791CA5 /* Pods-FTNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B4E7E43DA815D9BEE4623FB160B7D1D /* Pods-FTNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCEFC746066653246D111DA7530CD393 /* FTNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C66D040C360F73D4D4B5504C53C8BAB /* FTNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1D5B3396C3D1CB357CE9A7C24063957 /* FTNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A1690B5A624A5BE49614E1F8BF4F71 /* FTNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D40A0D45C012F4F4C1F49669C3B2B246 /* FTNetworking.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77BD753D53D4D2128921C3A08FE52CB1 /* FTNetworking.bundle */; };
 		D66716504D475B6377F7DD5C7C2BBCDE /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C5F299CDD4219A0F5A63827D34D2E1 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0DAA347C60DCD1A82999A66481F36F4 /* FTNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EC0150AD8329C1405B6EEC1BD221D /* FTNetworkManager.m */; };
 		E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C15B942C47068EFDF9A418C8CF769 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D655AE14CB5B94D33CDF7B47A889FF87 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4352388490E70C1CF187D93E390FB2A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C5AC68C3D65B56B8E58FC9150BE018 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F48FA191C3F76CAFEF72FEE0AD0C7781 /* FTNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7841BDE0D7CD0D3809A3A7030A9DDCA2 /* FTNetworking-dummy.m */; };
 		FDA522B328C907FBF9B11C64C1A7C624 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9CF71DA91C2758689E5548AFB791C /* UIActivityIndicatorView+AFNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4A3F16C1355B50A5D46B1D258B1F7C2A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
-		};
-		6514248BF39CF3430060439B193D827F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 332DC6D1FF53228A8B5698314EE5A082;
-			remoteInfo = FTNetworking;
-		};
-		AA4D157AC6391A132913C1A732A96BCB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 160B86245C9329483D1870D981F20CE9;
-			remoteInfo = "FTNetworking-FTNetworking";
-		};
-		BFA957C015EE9E2F072FE617610115E3 /* PBXContainerItemProxy */ = {
+		1DBF2304583DE1FA676FC6F58D209510 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E6709897C2D74C1B899B117DD3283D8D;
 			remoteInfo = "Pods-FTNetworking_Example";
 		};
-		D712DBAD4BF4AA5196796A607B8D5FBA /* PBXContainerItemProxy */ = {
+		3B386E3B76D01896E82DEB9C6D832730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 160B86245C9329483D1870D981F20CE9;
+			remoteInfo = "FTNetworking-FTNetworking";
+		};
+		7196E987ED5215B3B588C1C65733FBBF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
+		};
+		A00EDF9318D5BE7985B4EC3F58B93D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		C5F874B50C444C5B99E795DB1540AC5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 332DC6D1FF53228A8B5698314EE5A082;
+			remoteInfo = FTNetworking;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -102,58 +111,52 @@
 		06C226F9AC0ECB3E8ACF768A2FA7B887 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		087E14CFD01C52C8F320802FBE1C96AD /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		0B4E7E43DA815D9BEE4623FB160B7D1D /* Pods-FTNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
-		0DCC6842269769F750321F670811FC3D /* FTNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTNetworking.release.xcconfig; sourceTree = "<group>"; };
 		0E683DA847893CCDC774B1B96BE7F18D /* Pods-FTNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		14DEE99F9E2A2A3C84E6EEECC8E4735F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		184C15B942C47068EFDF9A418C8CF769 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		1C66D040C360F73D4D4B5504C53C8BAB /* FTNetworkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTNetworkManager.h; path = FTNetworking/Classes/FTNetworkManager.h; sourceTree = "<group>"; };
 		23C5AC68C3D65B56B8E58FC9150BE018 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		26BEF3ED4DA9B8AAE20161D6B17D9800 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		280140A54FE6C45B1C8B8A803BD0F110 /* FTNetworkingResource.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = FTNetworkingResource.xcassets; path = FTNetworking/Assets/FTNetworkingResource.xcassets; sourceTree = "<group>"; };
 		28016B848D7008A081F8BA6173B10CD7 /* Pods-FTNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
+		29DBEA8AC4BBD7B358B91A12DF2DF6D0 /* ResourceBundle-FTNetworking-FTNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FTNetworking-FTNetworking-Info.plist"; sourceTree = "<group>"; };
 		2A3E2CD3A24ADC744F7D0585EBA2B334 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		2F3BCDE67FDA4268B36F3243A26AFF95 /* FTNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FTNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3018CF1D30827BAEAF9B68A84EB1F6B7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FTNetworking/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		31FB51F7DEB07C68843C396B8C44B0FA /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		37757F8A2AA55AC2FBBA82419EA59281 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		37D5F2CEB9B6937C268DB26EEF62978D /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		38082307C0751FB7512FD7B4DCE0F0DF /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		38AB6B590973C7CBD8D7BC985227A5F8 /* Pods-FTNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3DC07265902CE85454DA4C435CD47B68 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		42695E97C20D5C09365223BF4039D640 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		453AA28B60A1B7AB1C1E6E204F08AB45 /* Pods-FTNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4B93D780D83E013B9CF065117B6ABA80 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		61ECCCEE7890FD7A29847D7CDFB9DF00 /* FTNetworking.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FTNetworking.bundle; path = "FTNetworking-FTNetworking.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		648A80C6763B46492C7A3ACEB109BCE4 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		6A8C45184EA7F9859FB52E8560CBFA67 /* FTNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		720867C30F7ABFE854C96FB4A3D9C0DE /* Pods-FTNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75ACF33252734108CC44AF5E36AAD396 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		77788F175B5142455ACF19C987D0C415 /* Pods-FTNetworking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTNetworking_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7841BDE0D7CD0D3809A3A7030A9DDCA2 /* FTNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTNetworking-dummy.m"; sourceTree = "<group>"; };
+		77BD753D53D4D2128921C3A08FE52CB1 /* FTNetworking.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FTNetworking.bundle; path = FTNetworking/Assets/FTNetworking.bundle; sourceTree = "<group>"; };
 		800FF404720458804F16E6C49C9232CA /* Pods-FTNetworking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTNetworking_Tests-Info.plist"; sourceTree = "<group>"; };
 		80507D7A89C8978896F5F2325204522B /* Pods-FTNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
 		842F909230AAC675241531ECA8AEE4A5 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		85E4B36F45EFDBAFEA50B765860A1987 /* Pods-FTNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
-		888E680A4BBD916A9161C84260C7D97B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		89E909443A20B13103B8D2B89E899297 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		8B9E383A054E7E1C274AF007FD183F8D /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		8E2DD89AB0F81BDA8E59943C89131288 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		8EE29478595C35D1DBF6CB2EE1BC11D5 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		929EE54BD0D1854BBCCA902B94780F8F /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		9A51B420DF12E017443215929B4FC293 /* FTNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FTNetworking.framework; path = FTNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0450421EF1C2C69A78A3342FFF4998 /* Pods-FTNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9C0C629B2115A0A4ED05123ACDE242F7 /* Pods-FTNetworking_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTNetworking_Example-resources.sh"; sourceTree = "<group>"; };
 		9C617FE811A91EA69182671BD494E324 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EBCA5CD821976845664EBA305132B12 /* FTNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTNetworking-prefix.pch"; sourceTree = "<group>"; };
 		A16BF44684D5CF29F80BB0C83B1986BC /* Pods-FTNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A38622E99EFFF8CAA53A03C63FEA274D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B0AF0DE2BD9E6FABC0D47C0DA60320 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		A8E1DB7EEFCFC5226E9F06CBB0A0E1B0 /* FTNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTNetworking.release.xcconfig; sourceTree = "<group>"; };
 		A9D2C0008DA172B3DFA68632FCF36E87 /* Pods_FTNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FTNetworking_Tests.framework; path = "Pods-FTNetworking_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACD7A3EAC7C86FCA7EB8328B5F8F6B22 /* FTNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FTNetworking.modulemap; sourceTree = "<group>"; };
-		ADACAE0AE65DCDDC67179DE091E10F9D /* FTNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		AAEE61B500B3AACD57755B35D2F398F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B086E0BED360BBC0E1D1EF2D5B133848 /* Pods-FTNetworking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTNetworking_Example-Info.plist"; sourceTree = "<group>"; };
 		B4ADCE528DF4230047CF84EB0D780BAC /* Pods-FTNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FTNetworking_Example.modulemap"; sourceTree = "<group>"; };
 		B4D9CF71DA91C2758689E5548AFB791C /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -165,30 +168,21 @@
 		C4036CC2F41439B5F3AA9EDFBA7AF998 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		C4FD45059D0C8A08031C2F4E7D95B44B /* Pods-FTNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C7CF43F38A5167B11CEC166B2B26CB27 /* Pods_FTNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FTNetworking_Example.framework; path = "Pods-FTNetworking_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9A1690B5A624A5BE49614E1F8BF4F71 /* FTNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTNetworking-umbrella.h"; sourceTree = "<group>"; };
+		CA67DE1D67B8CE7189DC826B1629DE97 /* FTNetworking-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FTNetworking-xcframeworks.sh"; sourceTree = "<group>"; };
 		CB2D8C6F89E11A531AD7544C065F4DDC /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		CBFDF83F2C855F29352862D71100C1B2 /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		D0730868BFD57958E896FE402D758ACB /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		D655AE14CB5B94D33CDF7B47A889FF87 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		DC96BC3B2CE6494883B884FA77F058D0 /* ResourceBundle-FTNetworking-FTNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FTNetworking-FTNetworking-Info.plist"; sourceTree = "<group>"; };
 		E0C5F299CDD4219A0F5A63827D34D2E1 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		E36B38DF2A3DC6A9254634C4EB8DF0CB /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
-		ECFFAA9BE31A37BDFC62C3397F57BA57 /* FTNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FTNetworking-Info.plist"; sourceTree = "<group>"; };
-		F82EC0150AD8329C1405B6EEC1BD221D /* FTNetworkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTNetworkManager.m; path = FTNetworking/Classes/FTNetworkManager.m; sourceTree = "<group>"; };
+		E48416F72DE65F9C3118511B1FD5647E /* FTNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FTNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC3ADD61C1FB51A5F17B78B19E2FA5C5 /* FTNetworking.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FTNetworking.xcframework; path = FTNetworking/framework/FTNetworking.xcframework; sourceTree = "<group>"; };
 		FC56CB36A2B53EB55FCDCCDF7A19ACEC /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		FC5D67C4903542379A45E2A9E3AD512A /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		78316B32A247194399BC3EC7B640FF1A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				465D8DB4638AD824198E166B2F0B2E25 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AA7A3188CA8FB11BC1D2F9ED1A6560C /* Frameworks */ = {
+		2ACC87DCFA25F748CCCB054C2F3E1295 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,12 +249,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		56FDAC7ED3EBD7D920C05C9765899574 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E48416F72DE65F9C3118511B1FD5647E /* FTNetworking.podspec */,
+				AAEE61B500B3AACD57755B35D2F398F3 /* LICENSE */,
+				A38622E99EFFF8CAA53A03C63FEA274D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		64C1DBA81629D684E035F3A9F969C6DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC3ADD61C1FB51A5F17B78B19E2FA5C5 /* FTNetworking.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7F9C13824D39A08118211E51F369F300 /* Reachability */ = {
@@ -270,14 +282,6 @@
 				50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */,
 			);
 			name = Reachability;
-			sourceTree = "<group>";
-		};
-		91077DD5731A3219AF168EB041A63EB5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A308B0771134AAA4B7113BE64B079642 /* FTNetworking */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		99D5CE518789123385F411168C77CE8E /* NSURLSession */ = {
@@ -308,28 +312,16 @@
 			path = "Target Support Files/Pods-FTNetworking_Tests";
 			sourceTree = "<group>";
 		};
-		A308B0771134AAA4B7113BE64B079642 /* FTNetworking */ = {
+		A935B6ED91F062BAB077DC7AA9530C3D /* FTNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				280140A54FE6C45B1C8B8A803BD0F110 /* FTNetworkingResource.xcassets */,
-				1C66D040C360F73D4D4B5504C53C8BAB /* FTNetworkManager.h */,
-				F82EC0150AD8329C1405B6EEC1BD221D /* FTNetworkManager.m */,
-				3018CF1D30827BAEAF9B68A84EB1F6B7 /* ReplaceMe.m */,
-				AE71FC61D92B16E327AA112DC8402E7A /* Pod */,
-				F6FF9ABD65985D98009EE36E5FE5BAB9 /* Support Files */,
+				77BD753D53D4D2128921C3A08FE52CB1 /* FTNetworking.bundle */,
+				64C1DBA81629D684E035F3A9F969C6DA /* Frameworks */,
+				56FDAC7ED3EBD7D920C05C9765899574 /* Pod */,
+				E4AD9D1FD0152E8058AC9E987180B281 /* Support Files */,
 			);
 			name = FTNetworking;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		AE71FC61D92B16E327AA112DC8402E7A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2F3BCDE67FDA4268B36F3243A26AFF95 /* FTNetworking.podspec */,
-				42695E97C20D5C09365223BF4039D640 /* LICENSE */,
-				888E680A4BBD916A9161C84260C7D97B /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		B580EA7CF70EB35BD42257A17D958932 /* Pods */ = {
@@ -370,12 +362,23 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				91077DD5731A3219AF168EB041A63EB5 /* Development Pods */,
+				D4B29096629A4004283E5DF6EC73893F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				B580EA7CF70EB35BD42257A17D958932 /* Pods */,
-				DF7D582605F0880F0FA0C5C4091B0696 /* Products */,
+				D173680D402452DA7ADE802C4F102E8D /* Products */,
 				2F594E9F539D866ECD18297971136B55 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D173680D402452DA7ADE802C4F102E8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
+				61ECCCEE7890FD7A29847D7CDFB9DF00 /* FTNetworking.bundle */,
+				C7CF43F38A5167B11CEC166B2B26CB27 /* Pods_FTNetworking_Example.framework */,
+				A9D2C0008DA172B3DFA68632FCF36E87 /* Pods_FTNetworking_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -397,6 +400,14 @@
 			name = Serialization;
 			sourceTree = "<group>";
 		};
+		D4B29096629A4004283E5DF6EC73893F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A935B6ED91F062BAB077DC7AA9530C3D /* FTNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		D9D01DC82489BFD122D4ED55E516108A /* Pods-FTNetworking_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -415,29 +426,13 @@
 			path = "Target Support Files/Pods-FTNetworking_Example";
 			sourceTree = "<group>";
 		};
-		DF7D582605F0880F0FA0C5C4091B0696 /* Products */ = {
+		E4AD9D1FD0152E8058AC9E987180B281 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
-				61ECCCEE7890FD7A29847D7CDFB9DF00 /* FTNetworking.bundle */,
-				9A51B420DF12E017443215929B4FC293 /* FTNetworking.framework */,
-				C7CF43F38A5167B11CEC166B2B26CB27 /* Pods_FTNetworking_Example.framework */,
-				A9D2C0008DA172B3DFA68632FCF36E87 /* Pods_FTNetworking_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F6FF9ABD65985D98009EE36E5FE5BAB9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ACD7A3EAC7C86FCA7EB8328B5F8F6B22 /* FTNetworking.modulemap */,
-				7841BDE0D7CD0D3809A3A7030A9DDCA2 /* FTNetworking-dummy.m */,
-				ECFFAA9BE31A37BDFC62C3397F57BA57 /* FTNetworking-Info.plist */,
-				9EBCA5CD821976845664EBA305132B12 /* FTNetworking-prefix.pch */,
-				C9A1690B5A624A5BE49614E1F8BF4F71 /* FTNetworking-umbrella.h */,
-				ADACAE0AE65DCDDC67179DE091E10F9D /* FTNetworking.debug.xcconfig */,
-				0DCC6842269769F750321F670811FC3D /* FTNetworking.release.xcconfig */,
-				DC96BC3B2CE6494883B884FA77F058D0 /* ResourceBundle-FTNetworking-FTNetworking-Info.plist */,
+				CA67DE1D67B8CE7189DC826B1629DE97 /* FTNetworking-xcframeworks.sh */,
+				6A8C45184EA7F9859FB52E8560CBFA67 /* FTNetworking.debug.xcconfig */,
+				A8E1DB7EEFCFC5226E9F06CBB0A0E1B0 /* FTNetworking.release.xcconfig */,
+				29DBEA8AC4BBD7B358B91A12DF2DF6D0 /* ResourceBundle-FTNetworking-FTNetworking-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/FTNetworking";
@@ -461,15 +456,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		594479B053E7D299C9FB4C9079A83B67 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1D5B3396C3D1CB357CE9A7C24063957 /* FTNetworking-umbrella.h in Headers */,
-				CCEFC746066653246D111DA7530CD393 /* FTNetworkManager.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9D3BA663DCC94993F54962BBD929A7D2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -545,7 +531,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4A8F9D041D88F746B750E493DC16F982 /* PBXTargetDependency */,
+				D365F4B32764B6736C6A64C5AF8FFD6D /* PBXTargetDependency */,
 			);
 			name = "Pods-FTNetworking_Tests";
 			productName = "Pods-FTNetworking_Tests";
@@ -554,11 +540,11 @@
 		};
 		160B86245C9329483D1870D981F20CE9 /* FTNetworking-FTNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80B97BADD70E84C211F3E96DD868B653 /* Build configuration list for PBXNativeTarget "FTNetworking-FTNetworking" */;
+			buildConfigurationList = 8E11EC12F76C0E987E5E82C16453BC05 /* Build configuration list for PBXNativeTarget "FTNetworking-FTNetworking" */;
 			buildPhases = (
-				AC89309F8812CA87BDFE84CAE62C9B70 /* Sources */,
-				8AA7A3188CA8FB11BC1D2F9ED1A6560C /* Frameworks */,
-				6BF18934C7B6367160D032EA642E8374 /* Resources */,
+				A1BA5D5704B0CBE2DA10F086E57FC57C /* Sources */,
+				2ACC87DCFA25F748CCCB054C2F3E1295 /* Frameworks */,
+				A1452C9296F2295DDDBAF6F3FE0F94D8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -568,26 +554,6 @@
 			productName = "FTNetworking-FTNetworking";
 			productReference = 61ECCCEE7890FD7A29847D7CDFB9DF00 /* FTNetworking.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		332DC6D1FF53228A8B5698314EE5A082 /* FTNetworking */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42EBA7B14768CF009E925B176D0150C2 /* Build configuration list for PBXNativeTarget "FTNetworking" */;
-			buildPhases = (
-				594479B053E7D299C9FB4C9079A83B67 /* Headers */,
-				4341CD5745B7B3F9551CCB7408576F91 /* Sources */,
-				78316B32A247194399BC3EC7B640FF1A /* Frameworks */,
-				4153C2AA49A42D77F4E48E86019F0CA0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B3AF30A053646F5EB2AA68466D1B9020 /* PBXTargetDependency */,
-				3060143D6E9452468BFC0D0D41BE1E30 /* PBXTargetDependency */,
-			);
-			name = FTNetworking;
-			productName = FTNetworking;
-			productReference = 9A51B420DF12E017443215929B4FC293 /* FTNetworking.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		E6709897C2D74C1B899B117DD3283D8D /* Pods-FTNetworking_Example */ = {
 			isa = PBXNativeTarget;
@@ -601,8 +567,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				A14E04496164B9544FAAAFE85365712E /* PBXTargetDependency */,
-				9EE44A89568A4D62D989E14E8CDA23A4 /* PBXTargetDependency */,
+				663769C4AF7D74397A722F1F55479AC9 /* PBXTargetDependency */,
+				329A00963C5E0240D2EBDBABE1AAC365 /* PBXTargetDependency */,
 			);
 			name = "Pods-FTNetworking_Example";
 			productName = "Pods-FTNetworking_Example";
@@ -627,7 +593,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DF7D582605F0880F0FA0C5C4091B0696 /* Products */;
+			productRefGroup = D173680D402452DA7ADE802C4F102E8D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -641,13 +607,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4153C2AA49A42D77F4E48E86019F0CA0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4F538329EFB786F76597BA645FC9D5DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -662,14 +621,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BF18934C7B6367160D032EA642E8374 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9229F1F8FD2E8DF6E9728135A0089F9E /* FTNetworkingResource.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A59CD06A5079E0A0C637B137621E3B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -677,7 +628,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1452C9296F2295DDDBAF6F3FE0F94D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40A0D45C012F4F4C1F49669C3B2B246 /* FTNetworking.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60A639F6060C0F18A0D116C42D24A394 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/FTNetworking/FTNetworking-xcframeworks.sh",
+				"${PODS_ROOT}/../../FTNetworking/framework/FTNetworking.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FTNetworking",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FTNetworking/FTNetworking-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		06B68B76732D5816DF1FE48F84D48B84 /* Sources */ = {
@@ -685,16 +665,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7500BA54579034C08C27889C6124AA0 /* Pods-FTNetworking_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4341CD5745B7B3F9551CCB7408576F91 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F48FA191C3F76CAFEF72FEE0AD0C7781 /* FTNetworking-dummy.m in Sources */,
-				E0DAA347C60DCD1A82999A66481F36F4 /* FTNetworkManager.m in Sources */,
-				8C667856194817B674319D83EF79289D /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,7 +699,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC89309F8812CA87BDFE84CAE62C9B70 /* Sources */ = {
+		A1BA5D5704B0CBE2DA10F086E57FC57C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -739,35 +709,35 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3060143D6E9452468BFC0D0D41BE1E30 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "FTNetworking-FTNetworking";
-			target = 160B86245C9329483D1870D981F20CE9 /* FTNetworking-FTNetworking */;
-			targetProxy = AA4D157AC6391A132913C1A732A96BCB /* PBXContainerItemProxy */;
-		};
-		4A8F9D041D88F746B750E493DC16F982 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-FTNetworking_Example";
-			target = E6709897C2D74C1B899B117DD3283D8D /* Pods-FTNetworking_Example */;
-			targetProxy = BFA957C015EE9E2F072FE617610115E3 /* PBXContainerItemProxy */;
-		};
-		9EE44A89568A4D62D989E14E8CDA23A4 /* PBXTargetDependency */ = {
+		329A00963C5E0240D2EBDBABE1AAC365 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FTNetworking;
 			target = 332DC6D1FF53228A8B5698314EE5A082 /* FTNetworking */;
-			targetProxy = 6514248BF39CF3430060439B193D827F /* PBXContainerItemProxy */;
+			targetProxy = C5F874B50C444C5B99E795DB1540AC5C /* PBXContainerItemProxy */;
 		};
-		A14E04496164B9544FAAAFE85365712E /* PBXTargetDependency */ = {
+		663769C4AF7D74397A722F1F55479AC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 4A3F16C1355B50A5D46B1D258B1F7C2A /* PBXContainerItemProxy */;
+			targetProxy = 7196E987ED5215B3B588C1C65733FBBF /* PBXContainerItemProxy */;
 		};
-		B3AF30A053646F5EB2AA68466D1B9020 /* PBXTargetDependency */ = {
+		BB4819FA7BFCBCA8E8338373F0232BFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = D712DBAD4BF4AA5196796A607B8D5FBA /* PBXContainerItemProxy */;
+			targetProxy = A00EDF9318D5BE7985B4EC3F58B93D24 /* PBXContainerItemProxy */;
+		};
+		D365F4B32764B6736C6A64C5AF8FFD6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FTNetworking_Example";
+			target = E6709897C2D74C1B899B117DD3283D8D /* Pods-FTNetworking_Example */;
+			targetProxy = 1DBF2304583DE1FA676FC6F58D209510 /* PBXContainerItemProxy */;
+		};
+		D9E00BE8C544CDA97C62D90D5D8BCD19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FTNetworking-FTNetworking";
+			target = 160B86245C9329483D1870D981F20CE9 /* FTNetworking-FTNetworking */;
+			targetProxy = 3B386E3B76D01896E82DEB9C6D832730 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -799,6 +769,22 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0FF2B59336F1A92DB43EC7BAB65F9E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8C45184EA7F9859FB52E8560CBFA67 /* FTNetworking.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FTNetworking";
+				IBSC_MODULE = FTNetworking;
+				INFOPLIST_FILE = "Target Support Files/FTNetworking/ResourceBundle-FTNetworking-FTNetworking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = FTNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -899,19 +885,17 @@
 			};
 			name = Debug;
 		};
-		7418A1FA86422EE2D372723CC3A899F5 /* Release */ = {
+		3B4CB84CB6568D5597461F4184B53AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DCC6842269769F750321F670811FC3D /* FTNetworking.release.xcconfig */;
+			baseConfigurationReference = A8E1DB7EEFCFC5226E9F06CBB0A0E1B0 /* FTNetworking.release.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FTNetworking";
-				IBSC_MODULE = FTNetworking;
-				INFOPLIST_FILE = "Target Support Files/FTNetworking/ResourceBundle-FTNetworking-FTNetworking-Info.plist";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = FTNetworking;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -947,35 +931,19 @@
 			};
 			name = Debug;
 		};
-		8CEA6831035C7F8818AD11D263F46F19 /* Release */ = {
+		ABC37B204F527432C759A81011DD1C5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DCC6842269769F750321F670811FC3D /* FTNetworking.release.xcconfig */;
+			baseConfigurationReference = A8E1DB7EEFCFC5226E9F06CBB0A0E1B0 /* FTNetworking.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FTNetworking/FTNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FTNetworking/FTNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FTNetworking";
+				IBSC_MODULE = FTNetworking;
+				INFOPLIST_FILE = "Target Support Files/FTNetworking/ResourceBundle-FTNetworking-FTNetworking-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/FTNetworking/FTNetworking.modulemap";
-				PRODUCT_MODULE_NAME = FTNetworking;
 				PRODUCT_NAME = FTNetworking;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1005,37 +973,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B90C78CF2414EDF6DB683407AA2F0C8A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADACAE0AE65DCDDC67179DE091E10F9D /* FTNetworking.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FTNetworking/FTNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FTNetworking/FTNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/FTNetworking/FTNetworking.modulemap";
-				PRODUCT_MODULE_NAME = FTNetworking;
-				PRODUCT_NAME = FTNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1137,22 +1074,6 @@
 			};
 			name = Release;
 		};
-		D23EF59D94BE35489F8F6E71578C5499 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADACAE0AE65DCDDC67179DE091E10F9D /* FTNetworking.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FTNetworking";
-				IBSC_MODULE = FTNetworking;
-				INFOPLIST_FILE = "Target Support Files/FTNetworking/ResourceBundle-FTNetworking-FTNetworking-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = FTNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		DBABF2B0FC4F2D9D3E90B4BA2FFC4F92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28016B848D7008A081F8BA6173B10CD7 /* Pods-FTNetworking_Example.release.xcconfig */;
@@ -1186,6 +1107,19 @@
 			};
 			name = Release;
 		};
+		FF6B117D1FA3090BE8878BD9647E5250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8C45184EA7F9859FB52E8560CBFA67 /* FTNetworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1194,15 +1128,6 @@
 			buildConfigurations = (
 				83FF1CF07C4F540C6491CD005207B4D2 /* Debug */,
 				DBABF2B0FC4F2D9D3E90B4BA2FFC4F92 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42EBA7B14768CF009E925B176D0150C2 /* Build configuration list for PBXNativeTarget "FTNetworking" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B90C78CF2414EDF6DB683407AA2F0C8A /* Debug */,
-				8CEA6831035C7F8818AD11D263F46F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1216,11 +1141,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80B97BADD70E84C211F3E96DD868B653 /* Build configuration list for PBXNativeTarget "FTNetworking-FTNetworking" */ = {
+		8E11EC12F76C0E987E5E82C16453BC05 /* Build configuration list for PBXNativeTarget "FTNetworking-FTNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D23EF59D94BE35489F8F6E71578C5499 /* Debug */,
-				7418A1FA86422EE2D372723CC3A899F5 /* Release */,
+				0FF2B59336F1A92DB43EC7BAB65F9E9D /* Debug */,
+				ABC37B204F527432C759A81011DD1C5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1239,6 +1164,15 @@
 			buildConfigurations = (
 				0C902209175D85304A5115B511928021 /* Debug */,
 				14B48D48C70A71982AC939EE52106523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6AFE8D051B9319CA6006C0063225D1A /* Build configuration list for PBXAggregateTarget "FTNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6B117D1FA3090BE8878BD9647E5250 /* Debug */,
+				3B4CB84CB6568D5597461F4184B53AB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
